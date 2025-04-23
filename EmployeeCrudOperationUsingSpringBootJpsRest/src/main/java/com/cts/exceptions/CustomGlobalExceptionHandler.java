@@ -39,7 +39,7 @@ public class CustomGlobalExceptionHandler {
         exceptionResponse.setDate(LocalDate.now());
         exceptionResponse.setMessage(exception.getMessage());
 
-        return new ResponseEntity<>(exceptionResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(value = InvalidEmployeeIdException.class)
@@ -51,7 +51,7 @@ public class CustomGlobalExceptionHandler {
         exceptionResponse.setDate(LocalDate.now());
         exceptionResponse.setMessage(exception.getMessage());
 
-        return new ResponseEntity<>(exceptionResponse, HttpStatus.NOT_FOUND);
+        return new ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(value = Exception.class)
@@ -63,6 +63,6 @@ public class CustomGlobalExceptionHandler {
         exceptionResponse.setDate(LocalDate.now());
         exceptionResponse.setMessage(exception.getMessage());
 
-        return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<ExceptionResponse>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

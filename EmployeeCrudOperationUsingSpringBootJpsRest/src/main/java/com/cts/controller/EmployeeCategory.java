@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cts.exceptions.EmployeeNotFound;
 import com.cts.exceptions.InvalidEmployeeIdException;
 import com.cts.model.Employee;
 import com.cts.service.EmployeeService;

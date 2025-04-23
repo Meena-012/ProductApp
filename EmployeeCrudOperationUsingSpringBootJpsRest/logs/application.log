@@ -1,0 +1,37 @@
+2025-04-23T10:50:46.948+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] erationEmployeeWithSpringBootApplication : Starting ProductCrudOperationEmployeeWithSpringBootApplication using Java 21.0.6 with PID 45196 (C:\Users\2401063\git\repository2\EmployeeCrudOperationUsingSpringBootJpsRest\target\classes started by 2401063 in C:\Users\2401063\git\repository2\EmployeeCrudOperationUsingSpringBootJpsRest)
+2025-04-23T10:50:46.949+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] erationEmployeeWithSpringBootApplication : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T10:50:47.983+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T10:50:48.005+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2025-04-23T10:50:48.284+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1111 (http)
+2025-04-23T10:50:48.285+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T10:50:48.286+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T10:50:48.363+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-23T10:50:48.363+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1405 ms
+2025-04-23T10:50:48.767+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T10:50:48.781+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T10:50:48.807+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T10:50:48.810+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-04-23T10:50:48.835+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@617c4366
+2025-04-23T10:50:48.836+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-04-23T10:50:48.840+05:30  WARN 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-23T10:50:48.841+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-23T10:50:48.924+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T10:50:49.034+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T10:50:49.146+05:30  WARN 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T10:50:50.158+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-23T10:50:50.171+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-04-23T10:50:50.237+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1111 (http) with context path '/'
+2025-04-23T10:50:50.267+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [restartedMain] erationEmployeeWithSpringBootApplication : Started ProductCrudOperationEmployeeWithSpringBootApplication in 3.499 seconds (process running for 787.832)
+2025-04-23T10:50:51.606+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 14 class path changes (14 additions, 0 deletions, 0 modifications)
+2025-04-23T10:50:51.609+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T10:50:51.621+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T10:50:51.628+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T10:50:51.630+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-04-23T10:50:51.659+05:30  INFO 45196 --- [ProductCrudOperationUsingSpringJps] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
